@@ -1,0 +1,24 @@
+{
+   "users": [
+      {
+         "name": "John Smith",
+         "password": 1111,
+         "messages": []
+      },
+      {
+         "name": "Frank Davis",
+         "password": 2222,
+         "messages": []
+      },
+      {
+         "name": "Matilda Logan",
+         "password": 3333,
+         "messages": []
+      },
+      {
+         "name": "Tomas Steven Williams",
+         "password": 4444,
+         "messages": []
+      }
+   ]
+}
