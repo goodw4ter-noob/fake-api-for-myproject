@@ -1,24 +1,140 @@
 {
    "users": [
       {
+         "id": 1,
          "name": "John Smith",
          "password": 1111,
-         "messages": []
+         "messages": [],
+         "img":" /img/bird.png",
+         "city": "Montreal",
+         "country": "Canada",
+         "flag": "/img/canada.svg",
+         "links": ["https://en.wikipedia.org/wiki/Canada", "https://www.youtube.com/"]
       },
       {
+         "id": 2,
          "name": "Frank Davis",
          "password": 2222,
-         "messages": []
+         "messages": [],
+         "img": "/img/user2img.png",
+         "city": "New-York",
+         "country": "USA",
+         "flag": "/img/usa.svg",
+         "links": ["https://en.wikipedia.org/wiki/United_States", "https://learn.javascript.ru/"]
       },
       {
+         "id": 3,
          "name": "Matilda Logan",
          "password": 3333,
-         "messages": []
+         "messages": [],
+         "img": "/img/user3img.png",
+         "city": "Sydney",
+         "country": "Australia",
+         "flag": "/img/australia.svg",
+         "links": ["https://en.wikipedia.org/wiki/Australia", "https://translate.yandex.ru/"]
       },
       {
+         "id": 4,
          "name": "Tomas Steven Williams",
          "password": 4444,
-         "messages": []
+         "messages": [],
+         "img": "/img/user4img.png",
+         "city": "Liverpool",
+         "country": "United Kingdom",
+         "flag": "/img/uk.svg",
+         "links": ["https://en.wikipedia.org/wiki/Great_Britain", "https://www.udemy.com/"]
+      }
+   ],
+   "posts": [
+      {
+         "id": 1,
+         "text": "Today was a great day! I visited the exhibition of a famous artist and managed to meet him in personal. What a great man indeed!",
+         "time": "16:25",
+         "author": {
+            "id": 1,
+            "nickname": "js"
+         }
+      },
+      {
+         "id": 2,
+         "text": "First time in Moscow. Can anyone, please, tell me where the Shiraton Hotel is?",
+         "time": "16:50",
+         "author": {
+            "id": 2,
+            "nickname": "fd"
+         }
+      },
+      {
+         "id": 3,
+         "text": "Got my driving license! At last! It onle took me 7 tries but I did it :)",
+         "time": "18:00",
+         "author": {
+            "id": 3,
+            "nickname": "ml"
+         }
+      },
+      {
+         "id": 4,
+         "text": "France lost :( Anyway Mbappe's play was great! Better luck next time Les Bleaus!",
+         "time": "20:00",
+         "author": {
+            "id": 4,
+            "nickname": "tsw"
+         }
+      },
+      {
+         "id": 5,
+         "text": "10 days for Xmas! Have everybody bought presents already?",
+         "time": "13:22",
+         "author": {
+            "id": 2,
+            "nickname": "fd"
+         }
+      },
+      {
+         "id": 6,
+         "text": "Somebody is looking forward to celebrating New Year and I am looking forward my exams to be over...",
+         "time": "12:25",
+         "author": {
+            "id": 4,
+            "nickname": "tsw"
+         }
+      },
+      {
+         "id": 7,
+         "text": "The prices for PC cpu have skyrocketed this year again! Wish I hadn't postponed buying a new PC last summer...",
+         "time": "12:34",
+         "author": {
+            "id": 1,
+            "nickname": "js"
+         }
+      },
+      {
+         "id": 8,
+         "text": "Messi did it! True legend! Proud to live in one age with such a great player like he!",
+         "time": "11:10",
+         "author": {
+            "id": 2,
+            "nickname": "fd"
+         }
+      },
+      {
+         "id": 9,
+         "text": "FAANG have fired around 15% of their engineers! 2008 for IT is incoming?",
+         "time": "08:50",
+         "author": {
+            "id": 4,
+            "nickname": "tsw"
+         }
+      },
+      {
+         "id": 10,
+         "text": "Is it going to stop snowing in Moscow??? Have always thought that the Russian Winter is an exaggeration!",
+         "time": "17:40",
+         "author": {
+            "id": 2,
+            "nickname": "fd"
+         }
       }
    ]
 }
